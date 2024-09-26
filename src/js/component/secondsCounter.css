@@ -1,0 +1,49 @@
+.container-fluid {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; 
+    background: linear-gradient(to right, #1a1a1b, #4d4d55); 
+}
+
+.header {
+    font-size: 36px;
+    margin-bottom: 20px; 
+    background-color: rgba(0, 0, 0, 0.7); 
+    color: white;
+    padding: 20px 0; 
+    border-radius: 10px; 
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3); 
+}
+
+.timer {
+    background-color: rgba(0, 0, 0, 0.8); 
+    color: #ffcc00; 
+    width: 400px; 
+    letter-spacing: 2px; 
+    font-size: 48px; 
+    margin: 20px 0; 
+    padding: 20px; 
+    border-radius: 8px; 
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.5); 
+}
+
+.button {
+    margin-top: 30px; 
+    width: 100px; 
+    padding: 10px; 
+    font-size: 20px; 
+    border: none; 
+    border-radius: 5px; 
+    background-color: #03122e65; 
+    color: white; 
+    cursor: pointer; 
+    transition: background-color 0.3s, transform 0.2s; 
+}
+
+.button:hover {
+    background-color: #e4d724; 
+    transform: scale(1.05); 
+}
